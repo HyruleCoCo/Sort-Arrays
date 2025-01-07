@@ -22,11 +22,11 @@ Insertion sort is a simple sorting algorithim that works by iteratively insertin
 - And you repete this until the list is sorted
 
 ## [Quick Sort](https://www.geeksforgeeks.org/quick-sort-algorithm/)
-Quick Sort is a algorithim based on the [Divide and Conquer method]{https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm/) that picks an element in the array as a pivor and partitions the given array around the elected pivot by placing the pivot in its correct position in the sorted array
+Quick Sort is a algorithim based on the [Divide and Conquer method](https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm/) that picks an element in the array as a pivor and partitions the given array around the elected pivot by placing the pivot in its correct position in the sorted array
 > Divide and Conquer Algorithm involves breaking a larger problem into smaller subproblems, solving them independently, and then combining their solutions to solve the original problem. The basic idea is to recursively divide the problem into smaller subproblems until they become simple enough to be solved directly. Once the solutions to the subproblems are obtained, they are then combined to produce the overall solution. 
 - Firstly you have to select an element of the array to act as the pivot
 - Then you have to rearrange the array around the pivot, after partitioning all elements smaller than the pivot will ve on its left while all elements larger than the pivot will be on its right
 - then you recursively call this until the array no longer changes
 
 ## [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
-Merge sort is an algorithim that follows the [Divide and Conquer approach]{https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm/), it works by recursively dividing the input array into smaller subarrays and sorting those subarrays, then merging them back together to obtain the sorted array. Or in other words, merge sort divides the array into two seperate halves, sorts each half individually before merging those halves together, repeating until the array is sorted.
+Merge sort is an algorithim that follows the [Divide and Conquer approach](https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm/), it works by recursively dividing the input array into smaller subarrays and sorting those subarrays, then merging them back together to obtain the sorted array. Or in other words, merge sort divides the array into two seperate halves, sorts each half individually before merging those halves together, repeating until the array is sorted.
