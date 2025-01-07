@@ -11,5 +11,6 @@ Bubble Sort is an algorithim that sorts arrays through repeatidly swapping two a
 ## [Heap Sort](https://www.geeksforgeeks.org/heap-sort/)
 Heap sort is a comparison-based sorting technique based on [Binary Heap Data Structures](https://www.geeksforgeeks.org/binary-heap/)
 > A Binary Heap is a complete Binary tree which is used to store data efficiently to get the max or min element based on its type
+
 Heap sort can be seen as an optimization of selection sort where we first find the max element and swap it with the last element and repeating until the array is sorted.
 In heap sort we use Binary Heap so we can quickly find and move the max element in a more optimized method than in selection sort
