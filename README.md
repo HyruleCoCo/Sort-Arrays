@@ -28,5 +28,5 @@ Quick Sort is a algorithim based on the [Divide and Conquer method](https://www.
 - Then you have to rearrange the array around the pivot, after partitioning all elements smaller than the pivot will ve on its left while all elements larger than the pivot will be on its right
 - then you recursively call this until the array no longer changes
 
-## [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
+## [Merge Sort](https://www.baeldung.com/java-merge-sort)
 Merge sort is an algorithim that follows the [Divide and Conquer approach](https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm/), it works by recursively dividing the input array into smaller subarrays and sorting those subarrays, then merging them back together to obtain the sorted array. Or in other words, merge sort divides the array into two seperate halves, sorts each half individually before merging those halves together, repeating until the array is sorted.
