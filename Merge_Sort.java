@@ -1,8 +1,8 @@
-// this is coded based off of baeldung.coms coding tutorial
+// this code is based off of baeldung.com's coding tutotorial
 // https://www.baeldung.com/java-merge-sort
 
 import javax.swing.JOptionPane;
-public class Merge_Sort {
+public class Merge_Sort{
     public static void main(){
         // get the array size from the user
         int size = 0;
@@ -43,10 +43,11 @@ public class Merge_Sort {
         if(size < 2){
             return;
         }
-        // find the midpoint of the array
-        int mid = size / 2;
 
-        // create temperary arrays
+        // find the midpoint of the array
+        int mid = Math.round(size / 2);
+
+        // create temp arrays
         double[] l = new double[mid];
         double[] r = new double[size - mid];
 
@@ -55,11 +56,10 @@ public class Merge_Sort {
             l[i] = array[i];
         }
         for(int i = mid; i < size; i++){
-            r[i-mid] = array[i];
+            r[i] = array[i];
         }
 
-        
-        // recursivly split the 2 halves
+        // recursily split and sort arrays
         mergeSort(l, mid);
         mergeSort(r, size - mid);
 
@@ -73,7 +73,7 @@ public class Merge_Sort {
             if(l[i] <= r[j]){
                 array[k++] = l[i++];
             }
-            else{
+            else {
                 array[k++] = r[j++];
             }
         }
@@ -84,5 +84,5 @@ public class Merge_Sort {
             array[k++] = r[j++];
         }
     }
-}
 
+}

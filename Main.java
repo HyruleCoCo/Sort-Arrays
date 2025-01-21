@@ -17,8 +17,8 @@ public class Main{
                 case 4 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Quick Sort\", is this correct?\n input true or false"));
                 case 5 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Merge Sort\", is this correct?\n input true or false"));
                 case 6 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Shell Sort\", is this correct?\n input true or false"));
-                case 7 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Radix Sort\", is this correct?\n input true or false"));
-                case 8 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Count Sort\", is this correct?\n input true or false"));
+                case 7 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Count Sort\", is this correct?\n input true or false"));
+                case 8 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Radix Sort\", is this correct?\n input true or false"));
                 case 9 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Bucket Sort\", is this correct?\n input true or false"));
                 case 10 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Tim Sort\", is this correct?\n input true or false"));
                 case 11 -> confirm = Boolean.parseBoolean(JOptionPane.showInputDialog("You have selected \"Tree Sort\", is this correct?\n input true or false"));
@@ -34,9 +34,8 @@ public class Main{
             case 4 -> Quick_Sort.main();
             case 5 -> Merge_Sort.main();
             case 6 -> Shell_Sort.main();
-            case 7 -> {// radix sort
-            }
-            case 8 -> {// count sort
+            case 7 -> Count_Sort.main();
+            case 8 -> {// radix sort
             }
             case 9 -> {// Bucket sort
             }
